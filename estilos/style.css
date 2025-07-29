@@ -103,3 +103,29 @@ h2 {
     margin-right: 0 auto;
     border-radius: 10px;
 }
+.titulos {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.parrafos {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    text-align: justify;
+    padding: 10px;
+}
+.div02 {
+    width: 300px;
+    height: 300px;
+    box-sizing: border-box;
+}
+.div03 {
+    width: 300px;
+    height: 200px;
+    box-sizing: content-box;
+    border-color: aliceblue;
+    border: 1px solid rgb(255, 255, 255);
+    display:contents;
+}
